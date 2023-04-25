@@ -6,7 +6,7 @@
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo" href="#">
+      <a class="main-header__logo" href="index.html">
         <img class="page-header-logo" src="img/logo.svg" width="185" height="96" alt="логотип.">
       </a>
       <nav class="main-nav">
@@ -26,7 +26,7 @@
       </section>
       <section class="comments">
         <div class="comments__wrapper">
-          <heder class="comments__header">
+          <header class="comments__header">
             <h2 class="comments__slogan">Оставьте свой отзыв</h2>
             <p class="comments__intro">
               Помогите нашим отелям стать лучше!<br>
@@ -34,23 +34,23 @@
               посещенных вами<br>
               достопримечательностях
             </p>
-          </heder>
+          </header>
         </div>
       </section>
       <form action="#" method="post">
-        <fieldset class="form-name">
-          <legend class="form-name__title">Представьтесь:</legend>
-          <ul class="form-name__list">
-            <li class="form-name__item item-name">
-              <label class="item-name__title" for="name">Имя*:</label>
+        <fieldset class="form-visitor">
+          <legend class="form-visitor__title">Представьтесь:</legend>
+          <ul class="form-visitor__list">
+            <li class="form-visitor__item individual-data">
+              <label class="individual-data__title" for="name">Имя*:</label>
               <input class="name-input" type="text" name="name" placeholder="Петр" id="name" required>
             </li>
-            <li class="form-name__item item-name">
-              <label class="item-name__title" for="surname">Фамилия*:</label>
+            <li class="form-visitor__item individual-data">
+              <label class="individual-data__title" for="surname">Фамилия*:</label>
               <input class="name-input" type="text" name="surname" placeholder="Пустота" id="surname" required>
             </li>
-            <li class="form-name__item item-name">
-              <label class="item-name__title" for="patronymic">Отчество:</label>
+            <li class="form-visitor__item individual-data">
+              <label class="individual-data__title" for="patronymic">Отчество:</label>
               <input class="name-input" type="text" name="patronymic" placeholder="Викторович" id="patronymic">
             </li>
           </ul>
@@ -60,11 +60,11 @@
           <ul class="form-contacts__list">
             <li class="form-contacts__item item-сontacts">
               <label class="item-сontacts__title" for="number">Контактный телефон*:</label>
-              <input class="phone-number" type="tel" name="phone" placeholder="Введите телефон" id="number" required>
+              <input class="contacts-data" type="tel" name="phone" placeholder="Введите телефон" id="number" required>
             </li>
             <li class="form-contacts__item item-сontacts">
               <label class="item-сontacts__title" for="email">Электронная почта*:</label>
-              <input class="phone-number" type="email" name="mail" placeholder="Введите e-mail" id="email" required>
+              <input class="contacts-data" type="email" name="mail" placeholder="Введите e-mail" id="email" required>
             </li>
           </ul>
         </fieldset>
@@ -136,9 +136,8 @@
         </ul>
       </div>
       <div class="main-footer__copyright copyright">
-        <b class="copyright__text">Разработано</b>
         <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <span class="visually-hidden">ссылка на сайт htmlacademy</span>
+          <span class="copyright__text">Разработано</span>
         </a>
       </div>
     </footer>
